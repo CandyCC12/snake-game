@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贪吃蛇游戏</title>
+    <style>
+        #game-board {
+            width: 320px;
+            height: 320px;
+            background-color: #eee;
+            display: grid;
+            grid-template-rows: repeat(16, 20px);
+            grid-template-columns: repeat(16, 20px);
+        }
+        .snake {
+            background-color: green;
+        }
+        .food {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="score">得分: 0</div>
+    <div id="game-board"></div>
+    <script src="snake.js"></script>
+</body>
+</html>

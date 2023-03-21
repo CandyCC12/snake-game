@@ -92,6 +92,6 @@ document.addEventListener('keydown', changeDirection);
 setInterval(() => {
   moveSnake();
   renderGameBoard();
-}, 500);
+}, 200);
 
   
